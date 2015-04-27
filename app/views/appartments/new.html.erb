@@ -1,0 +1,15 @@
+
+
+<h1>Apartment Information</h1>
+
+
+
+<%= simple_form_for :appartment do |form| %>
+  <%= form.input :title, label: "Apartment Name" %>
+  <br>
+  <%= form.input :text, label: "Apartment Description" %>
+  <br>
+  <%= form.input :image_url, label: "Apartment Image" %>
+  <br>
+  <%= form.button :submit %>
+<% end %>
