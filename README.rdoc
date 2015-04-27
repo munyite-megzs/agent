@@ -1,28 +1,8 @@
-== README
+ A local property agent in Nairobi is having issues keeping track of the available property on the market. He is looking for a solution that will enable him to create listings of 
+available properties on the market. For starters he wants his application to be accessible to him for data entry before he releases it to the market. 
+Create a rails app that will allow him to CRUD property data.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Note: Each type of property should be accesible from its own url i.e
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+localhost:3000/apartments -- should list all apartments
+localhost:3000/bedsitters -- should list all bedsitters

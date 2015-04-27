@@ -4,6 +4,9 @@ class AppartmentsController < ApplicationController
 	end
 
 	def new
-		
+		@
 	end
+
+	def create
+  end
 end

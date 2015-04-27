@@ -4,7 +4,7 @@
 
 
 
-<%= simple_form_for :appartment do |form| %>
+<%= simple_form_for :appartment, url: appartments_path do |form| %>
   <%= form.input :title, label: "Apartment Name" %>
   <br>
   <%= form.input :text, label: "Apartment Description" %>
